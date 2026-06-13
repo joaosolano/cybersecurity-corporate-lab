@@ -27,7 +27,6 @@ Este laboratório simula a **CyberTécnica LTDA**, uma empresa de ciberseguranç
 - [ ] Configurar firewall pfSense
 - [ ] Modelagem 3D do prédio no FreeCAD
 
-
 ## 📸 Evidências da Implementação
 
 | Etapa | Screenshot |
@@ -37,6 +36,8 @@ Este laboratório simula a **CyberTécnica LTDA**, uma empresa de ciberseguranç
 | Kali Linux rodando | ![Kali Desktop](screenshots/03-kali-desktop.png) |
 | Comando whoami | ![whoami](screenshots/04-kali-whoami.png) |
 | Comando ip a | ![ip a](screenshots/05-kali-ip.png) |
+
+
 
 ## 👤 joaosolano
 
