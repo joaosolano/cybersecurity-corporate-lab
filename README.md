@@ -36,6 +36,11 @@
 - [ ] Instalar Windows 10 (1º Andar)
 - [ ] Configurar pfSense (Firewall)
 
+
 ## 👤 Autor
+
+**João Solano**
+
+Projeto em desenvolvimento como parte do portfólio prático em cibersegurança.
 
 🔗 [GitHub](https://github.com/joaosolano/cybersecurity-corporate-lab)
