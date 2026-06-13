@@ -31,12 +31,11 @@ Este laboratório simula a **CyberTécnica LTDA**, uma empresa de ciberseguranç
 
 | Etapa | Screenshot |
 |-------|------------|
-| Estrutura de pastas do HD | ![Pastas](screenshots/01-pastas.png) |
-| VirtualBox com Kali | ![VirtualBox](screenshots/02-virtualbox.png) |
-| Kali Linux rodando | ![Kali Desktop](screenshots/03-kali-desktop.png) |
-| Comando whoami | ![whoami](screenshots/04-kali-whoami.png) |
-| Comando ip a | ![ip a](screenshots/05-kali-ip.png) |
-
+| Estrutura de pastas do HD | ![Pastas](screenshots/01-pastas.png.png) |
+| VirtualBox com Kali | ![VirtualBox](screenshots/02-virtualbox.png.png) |
+| Kali Linux rodando | ![Kali Desktop](screenshots/03-kali-desktop.png.png) |
+| Comando whoami | ![whoami](screenshots/04-kali-whoami.png.png) |
+| Comando ip a | ![ip a](screenshots/05-kali-ip.png.png) |
 
 
 ## 👤 joaosolano
