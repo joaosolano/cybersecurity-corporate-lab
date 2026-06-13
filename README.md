@@ -8,7 +8,7 @@ Este laboratório simula a **CyberTécnica LTDA**, uma empresa de ciberseguranç
 
 | Andar | Função | Tecnologias |
 |-------|--------|-------------|
-| **Térreo** | Recepção / Público | Ubuntu Server + Apache |
+| **Térreo** | Recepção / Público | Ubuntu Server + Apache + PHP |
 | **1º Andar** | Infraestrutura / Servidores | Kali Linux, Windows Server |
 | **2º Andar** | Diretoria | Windows 10, políticas avançadas |
 
@@ -19,13 +19,9 @@ Este laboratório simula a **CyberTécnica LTDA**, uma empresa de ciberseguranç
 - [x] VirtualBox 7.2.8 instalado
 - [x] Kali Linux instalado e funcionando
 - [x] Snapshot do Kali salvo
-
-## 🚀 Próximos passos
-
-- [ ] Instalar Ubuntu Server (Recepção)
-- [ ] Instalar Windows 10 (Infraestrutura)
-- [ ] Configurar firewall pfSense
-- [ ] Modelagem 3D do prédio no FreeCAD
+- [x] Ubuntu Server instalado (Recepção - Térreo)
+- [x] Apache e PHP configurados
+- [x] Formulário de pré-cadastro de visitantes funcionando
 
 ## 📸 Evidências da Implementação
 
@@ -46,19 +42,19 @@ Este laboratório simula a **CyberTécnica LTDA**, uma empresa de ciberseguranç
 | Login no Ubuntu Server | ![Login](screenshots/06-ubuntu-login.png) |
 | Apache instalado | ![Apache](screenshots/07-apache-instalado.png) |
 | Página padrão do Apache | ![Apache Padrão](screenshots/08-pagina-padrao-apache.png.png) |
-| **Formulário da Recepção (funcionando)** | ![Formulário Funcionando](screenshots/09-formulario-funcionando.png.png) |
-| **Formulário bonito vazio** | ![Formulário Vazio](screenshots/09-formulario-bonito-vazio.png.png) |
-| **Formulário preenchido** | ![Formulário Preenchido](screenshots/10-formulario-preenchido.png.png) |
+| Formulário da Recepção (funcionando) | ![Formulário Funcionando](screenshots/09-formulario-funcionando.png.png) |
+| Formulário bonito vazio | ![Formulário Vazio](screenshots/09-formulario-bonito-vazio.png.png) |
+| Formulário preenchido | ![Formulário Preenchido](screenshots/10-formulario-preenchido.png.png) |
 
-### Próximas etapas
+## 🚀 Próximos passos
 
 - [ ] Instalar Windows 10 (1º Andar - Infraestrutura)
-- [ ] Configurar pfSense (Firewall)
+- [ ] Configurar firewall pfSense
 - [ ] Modelagem 3D do prédio no FreeCAD
 - [ ] Simular ataques controlados (Kali → Ubuntu)
 
-## 👤 joaosolano
+## 👤 Autor
 
 Projeto em desenvolvimento como parte do portfólio prático em cibersegurança.
 
-🔗 [GitHub](https://github.com/SEU_USUARIO/cybersecurity-corporate-lab)
+🔗 [GitHub](https://github.com/joaosolano/cybersecurity-corporate-lab)
