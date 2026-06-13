@@ -29,14 +29,33 @@ Este laboratório simula a **CyberTécnica LTDA**, uma empresa de ciberseguranç
 
 ## 📸 Evidências da Implementação
 
+### Etapa 1: Configuração do Laboratório
+
 | Etapa | Screenshot |
 |-------|------------|
-| Estrutura de pastas do HD | ![Pastas](screenshots/01-pastas.png.png) |
-| VirtualBox com Kali | ![VirtualBox](screenshots/02-virtualbox.png.png) |
-| Kali Linux rodando | ![Kali Desktop](screenshots/03-kali-desktop.png.png) |
-| Comando whoami | ![whoami](screenshots/04-kali-whoami.png.png) |
-| Comando ip a | ![ip a](screenshots/05-kali-ip.png.png) |
+| Estrutura de pastas do HD | ![Pastas](screenshots/01-pastas.png) |
+| VirtualBox com Kali | ![VirtualBox](screenshots/02-virtualbox.png) |
+| Kali Linux rodando | ![Kali Desktop](screenshots/03-kali-desktop.png) |
+| Comando whoami | ![whoami](screenshots/04-kali-whoami.png) |
+| Comando ip a | ![ip a](screenshots/05-kali-ip.png) |
 
+### Etapa 2: Servidor da Recepção (Térreo)
+
+| Etapa | Screenshot |
+|-------|------------|
+| Login no Ubuntu Server | ![Login](screenshots/06-ubuntu-login.png) |
+| Apache instalado | ![Apache](screenshots/07-apache-instalado.png) |
+| Página padrão do Apache | ![Apache Padrão](screenshots/08-pagina-padrao-apache.png.png) |
+| **Formulário da Recepção (funcionando)** | ![Formulário Funcionando](screenshots/09-formulario-funcionando.png.png) |
+| **Formulário bonito vazio** | ![Formulário Vazio](screenshots/09-formulario-bonito-vazio.png.png) |
+| **Formulário preenchido** | ![Formulário Preenchido](screenshots/10-formulario-preenchido.png.png) |
+
+### Próximas etapas
+
+- [ ] Instalar Windows 10 (1º Andar - Infraestrutura)
+- [ ] Configurar pfSense (Firewall)
+- [ ] Modelagem 3D do prédio no FreeCAD
+- [ ] Simular ataques controlados (Kali → Ubuntu)
 
 ## 👤 joaosolano
 
