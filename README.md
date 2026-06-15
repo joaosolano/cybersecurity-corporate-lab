@@ -1,5 +1,8 @@
 # 🏢 cybersecurity-corporate-lab
 
+<p align="center">
+  <img src="logo_cybertecnica.png" alt="CyberTécnica Logo" width="200">
+</p>
 > Laboratório corporativo de cibersegurança simulando uma empresa real com 3 andares, segurança física e lógica integradas.
 
 ## 🎯 Sobre o Projeto
