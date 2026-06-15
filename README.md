@@ -110,4 +110,9 @@ Este laboratório simula a **CyberTécnica LTDA**, uma empresa de ciberseguranç
 
 Projeto em desenvolvimento como parte do portfólio prático em cibersegurança.
 
+## 📖 Documentação completa
+
+Para um **passo a passo detalhado** de todo o laboratório (comandos, desafios, aprendizados), acesse:  
+👉 [PROJECT_WALKTHROUGH.md](docs/PROJECT_WALKTHROUGH.md)
+
 🔗 [GitHub](https://github.com/joaosolano/cybersecurity-corporate-lab)
