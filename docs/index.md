@@ -19,9 +19,7 @@ layout: default
 
 # 🏛️ CyberTécnica LTDA – Laboratório de Cibersegurança
 
-<p align="center">
-  <img src="logo_cybertecnica.png" alt="CyberTécnica Logo" width="200">
-</p>
+<img src="https://raw.githubusercontent.com/joaosolano/cybersecurity-corporate-lab/main/logo_cybertecnica.png" alt="CyberTécnica Logo" width="200">
 
 <!-- === BADGES - TECNOLOGIAS === -->
 <p align="center">
