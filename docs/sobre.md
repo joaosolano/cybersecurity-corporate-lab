@@ -60,7 +60,7 @@ Busco atuar na área de **segurança da informação**, com foco em perícia dig
 
 ---
 
-## 🔗 Conecte-se com mim
+## 🔗 Conecte-se comigo
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/joão-solano-310774138/)
 - 🐙 [GitHub](https://github.com/joaosolano)
