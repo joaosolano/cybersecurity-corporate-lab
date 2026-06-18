@@ -1,121 +1,152 @@
-# 🏢 cybersecurity-corporate-lab
+# 🏢 CyberTécnica LTDA – Laboratório de Cibersegurança
 
 <p align="center">
   <img src="logo_cybertecnica.png" alt="CyberTécnica Logo" width="200">
 </p>
-> Laboratório corporativo de cibersegurança simulando uma empresa real com 3 andares, segurança física e lógica integradas.
+
+<p align="center">
+  <strong>Um laboratório corporativo de cibersegurança que simula uma empresa real com 3 andares, integrando segurança física e lógica.</strong>
+</p>
+
+<p align="center">
+  <a href="https://github.com/joaosolano/cybersecurity-corporate-lab"><img src="https://img.shields.io/badge/repositório-GitHub-blue?style=flat-square&logo=github" alt="GitHub"></a>
+  <a href="https://joaosolano.github.io/cybersecurity-corporate-lab/"><img src="https://img.shields.io/badge/site-online-brightgreen?style=flat-square&logo=githubpages" alt="Site"></a>
+  <a href="https://github.com/joaosolano/cybersecurity-corporate-lab/blob/main/LICENSE"><img src="https://img.shields.io/badge/licença-MIT-green?style=flat-square" alt="MIT License"></a>
+  <a href="https://www.linkedin.com/in/joão-solano-310774138/"><img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin" alt="LinkedIn"></a>
+</p>
+
+---
 
 ## 🎯 Sobre o Projeto
 
-Este laboratório simula a **CyberTécnica LTDA**, uma empresa de cibersegurança com estrutura física de 3 andares:
+O **CyberTécnica LTDA** é um laboratório portátil criado para simular uma empresa real de cibersegurança. Ele integra:
 
-| Andar | Função | Tecnologias | IP |
-|-------|--------|-------------|-----|
-| **Térreo** | Recepção / Público | Ubuntu Server + Apache + PHP | 192.168.18.29 |
-| **1º Andar** | Infraestrutura / Servidores | Windows 10 + Wireshark | 192.168.18.30 |
-| **Atacante** | Testes de segurança | Kali Linux | 192.168.18.31 |
+- **Segurança física**: modelagem 3D do prédio com 3 andares.
+- **Segurança lógica**: redes, firewalls, ataques controlados e análise de tráfego.
 
-## ✅ Passos já concluídos
+Tudo rodando em um **HD externo portátil**, o que torna o ambiente replicável e demonstrável.
 
-### Infraestrutura
-- [x] HD externo de 465GB formatado em exFAT
-- [x] VirtualBox 7.2.8 instalado
+---
+
+## 🏗️ Estrutura do Laboratório
+
+| Andar        | Função                     | Tecnologias                     | IP            |
+|--------------|----------------------------|--------------------------------|---------------|
+| **Térreo**   | Recepção / Área Pública    | Ubuntu Server + Apache + PHP   | `192.168.18.29` |
+| **1º Andar** | Infraestrutura / TI        | Windows 10 + Wireshark         | `192.168.18.30` |
+| **2º Andar** *(planejado)* | Diretoria / SCIF | Windows 10 (futuro)            | `192.168.18.32` (futuro) |
+| **Atacante** | Testes de segurança        | Kali Linux + Nmap              | `192.168.18.31` |
+
+---
+
+## ✅ Etapas Concluídas
+
+### Infraestrutura Física e Virtual
+
+- [x] HD externo de 465 GB formatado em exFAT (`LAB_CYBER`)
+- [x] VirtualBox 7.2.8 instalado (versão estável)
 - [x] Estrutura de pastas organizada
 
-### Térreo (Recepção)
-- [x] Ubuntu Server instalado
-- [x] Apache + PHP configurados
-- [x] Formulário de pré-cadastro de visitantes funcionando
-- [x] Design profissional com CSS
+### Térreo – Recepção
 
-### 1º Andar (Infraestrutura)
-- [x] Windows 10 instalado
-- [x] Rede Bridge configurada
+- [x] Ubuntu Server com Apache2 + PHP
+- [x] Formulário de pré‑cadastro de visitantes (nome, empresa, telefone, destino, motivo)
+- [x] Design profissional com gradiente, sombras e responsividade
+
+### 1º Andar – Infraestrutura / TI
+
+- [x] Windows 10 instalado (chave KMS, sem ativação)
+- [x] Firewall liberado para ICMP (`netsh advfirewall ...`)
 - [x] Wireshark instalado e configurado
-- [x] Firewall liberado para ping (ICMP)
+- [x] Ping funcional entre andares
 
-### Atacante (Kali Linux)
-- [x] Kali Linux instalado
-- [x] Rede Bridge configurada
-- [x] Nmap instalado
-- [x] Testes de comunicação com Térreo e 1º Andar
-- [x] Escaneamento de portas
-- [x] Detecção de sistema operacional (Windows 10 - 97% de precisão)
-- [x] Testes de vulnerabilidade SMB
+### Atacante – Kali Linux
 
-## 📸 Evidências da Implementação
+- [x] Rede Bridge configurada (IP `192.168.18.31`)
+- [x] Nmap instalado e utilizado para:
+  - Descoberta de rede (`nmap -sn 192.168.18.0/24`)
+  - Escaneamento de portas no Ubuntu (porta 80) e Windows (SMB)
+  - Teste de vulnerabilidade SMB (nenhuma crítica encontrada)
+  - Detecção de sistema operacional (Windows 10 – 97% de precisão)
 
-### Configuração do Laboratório
+### Documentação e Portfólio
 
-| Etapa | Screenshot |
-|-------|------------|
-| Estrutura de pastas do HD | ![Pastas](screenshots/01-pastas.png.png) |
-| VirtualBox com Kali | ![VirtualBox](screenshots/02-virtualbox.png.png) |
-| Kali Linux rodando | ![Kali Desktop](screenshots/03-kali-desktop.png.png) |
-| Comando whoami | ![whoami](screenshots/04-kali-whoami.png.png) |
-| Comando ip a | ![ip a](screenshots/05-kali-ip.png.png) |
+- [x] Repositório GitHub atualizado
+- [x] README profissional com badges, tabelas e checklist
+- [x] Pasta `screenshots/` com 21+ evidências
+- [x] Documento `PROJECT_WALKTHROUGH.md` detalhado
+- [x] Logomarca criada com Python (Pillow)
+- [x] Site no GitHub Pages ([acessar](https://joaosolano.github.io/cybersecurity-corporate-lab/))
 
-### Térreo - Servidor Ubuntu (Recepção)
+---
 
-| Etapa | Screenshot |
-|-------|------------|
-| Login no Ubuntu Server | ![Login](screenshots/06-ubuntu-login.png) |
-| Apache instalado | ![Apache](screenshots/07-apache-instalado.png) |
-| Página padrão do Apache | ![Apache Padrão](screenshots/08-pagina-padrao-apache.png.png) |
-| Formulário da Recepção | ![Formulário Vazio](screenshots/09-formulario-bonito-vazio.png.png) |
-| Formulário preenchido | ![Formulário Preenchido](screenshots/10-formulario-preenchido.png.png) |
+## 📸 Galeria de Evidências
 
-### 1º Andar - Windows 10 (Infraestrutura)
+As principais capturas de tela do laboratório estão disponíveis em:
 
-| Etapa | Screenshot |
-|-------|------------|
-| Wireshark instalado | ![Wireshark](screenshots/11-wireshark-instalado.png.png) |
-| Wireshark capturando ping | ![Captura](screenshots/12-wireshark-capturando-ping.png.png) |
-| Ping para o Térreo (Ubuntu) | ![Ping](screenshots/13-windows-ping-ubuntu.png.png) |
-| Filtro ICMP aplicado | ![Filtro ICMP](screenshots/14-wireshark-filtro-icmp.png.png) |
+📁 [`screenshots/`](screenshots/)
 
-### Atacante - Kali Linux (Testes de Segurança)
+Ou visite a [página de evidências](https://joaosolano.github.io/cybersecurity-corporate-lab/evidencias) no site do projeto.
 
-| Etapa | Screenshot |
-|-------|------------|
-| Ping para o Ubuntu (Térreo) | ![Ping Ubuntu](screenshots/15-kali-ping-ubuntu.png.png) |
-| Ping para o Windows (1º Andar) | ![Ping Windows](screenshots/16-kali-ping-windows.png.png) |
-| Escaneamento de rede | ![Scan Network](screenshots/17-nmap-scan-network.png.png) |
-| Escaneamento do Ubuntu (porta 80) | ![Scan Ubuntu](screenshots/18-nmap-scan-ubuntu.png.png) |
-| Escaneamento do Windows (SMB) | ![Scan Windows](screenshots/19-nmap-scan-windows.png.png) |
-| Teste de vulnerabilidade SMB | ![SMB Vuln](screenshots/20-nmap-smb-vuln.png.png) |
-| Detecção de SO (Windows 10 97%) | ![OS Detection](screenshots/21-nmap-os-detection.png.png) |
+---
 
-## 🛠️ Técnicas e Ferramentas Utilizadas
+## 🛠️ Ferramentas e Tecnologias
 
-| Categoria | Ferramentas | Técnicas |
-|-----------|-------------|----------|
-| **Virtualização** | VirtualBox | VMs portáteis em HD externo |
-| **Sistemas** | Kali Linux, Ubuntu, Windows 10 | 3 andares interconectados |
-| **Rede** | Bridge mode, NAT | Comunicação entre VMs |
-| **Serviços** | Apache2, PHP | Site da recepção |
-| **Análise** | Wireshark | Captura de pacotes ICMP, SYN/SYN-ACK |
-| **Pentest** | Nmap | Escaneamento, detecção de SO, vulnerabilidades |
+| Categoria           | Ferramentas |
+|---------------------|-------------|
+| **Virtualização**   | VirtualBox, Guest Additions |
+| **Sistemas**        | Kali Linux, Ubuntu Server, Windows 10 |
+| **Rede**            | Bridge, NAT, ICMP, SMB, RPC |
+| **Serviços**        | Apache2, PHP, Wireshark, Nmap |
+| **Documentação**    | GitHub, Markdown, Python (Pillow) |
+| **Modelagem 3D**    | FreeCAD (iniciado) |
 
-## 🚀 Próximos passos
+---
 
-- [ ] Configurar firewall pfSense (separar andares logicamente)
-- [ ] Modelagem 3D do prédio no FreeCAD
-- [ ] Simular ataques avançados (Metasploit)
-- [ ] Configurar IDS/IPS (Snort/Suricata)
+## 🚀 Próximos Passos (Extrapolação)
+
+### Lógica e Redes
+- [ ] Configurar **pfSense** para isolar logicamente os 3 andares (VLANs, DMZ, Diretoria)
+- [ ] Implementar **Metasploit** para simulação de ataques controlados
+- [ ] Instalar **Snort/Suricata** como IDS/IPS no Ubuntu
+
+### Física (Modelagem 3D)
+- [ ] Modelar o prédio completo no **FreeCAD** com:
+  - Térreo: recepção, catracas, câmeras
+  - 1º andar: sala‑cofre, racks de servidores, armários blindados
+  - 2º andar: diretoria, sala SCIF
+- [ ] Importar/exportar **IFC** para interoperabilidade BIM
+
+### Integração e Automação
+- [ ] Painel administrativo para o formulário de visitantes (login, SQLite)
+- [ ] Scripts Python para automatizar ataques e coletar logs
+- [ ] Vídeo de demonstração do laboratório
+
+---
 
 ## 👤 Autor
 
-**João Solano**
+**João Solano**  
+Pós‑graduando em Computação Forense e Perícia Digital – Unopar  
+Criador do Laboratório CyberTécnica
 
-Projeto em desenvolvimento como parte do portfólio prático em cibersegurança.
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/joão-solano-310774138/)
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github)](https://github.com/joaosolano)
 
-## 📖 Documentação completa
+---
 
-Para um **passo a passo detalhado** de todo o laboratório (comandos, desafios, aprendizados), acesse:  
+## 📖 Documentação Completa
+
+Para um **passo a passo detalhado** com todos os comandos, desafios e soluções, acesse:
+
 👉 [PROJECT_WALKTHROUGH.md](docs/PROJECT_WALKTHROUGH.md)
 
+---
 
-[![Site Online](https://img.shields.io/badge/site-online-brightgreen)](https://joaosolano.github.io/cybersecurity-corporate-lab/)
+## 📄 Licença
 
-🔗 [GitHub](https://github.com/joaosolano/cybersecurity-corporate-lab)
+Este projeto está sob a licença MIT. Consulte o arquivo [`LICENSE`](LICENSE) para mais informações.
+
+---
+
+**Última atualização:** Junho de 2026
