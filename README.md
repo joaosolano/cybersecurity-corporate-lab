@@ -115,4 +115,7 @@ Projeto em desenvolvimento como parte do portfólio prático em cibersegurança.
 Para um **passo a passo detalhado** de todo o laboratório (comandos, desafios, aprendizados), acesse:  
 👉 [PROJECT_WALKTHROUGH.md](docs/PROJECT_WALKTHROUGH.md)
 
+
+[![Site Online](https://img.shields.io/badge/site-online-brightgreen)](https://joaosolano.github.io/cybersecurity-corporate-lab/)
+
 🔗 [GitHub](https://github.com/joaosolano/cybersecurity-corporate-lab)
