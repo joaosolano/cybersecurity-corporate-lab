@@ -50,7 +50,7 @@ layout: default
 
 <!-- === IMAGEM DO PROJETO === -->
 <p align="center">
-  <img src="imagem_projeto.png" alt="CyberTécnica Projeto" width="800">
+  <img src="imagem_projeto.png.jpg" alt="CyberTécnica Projeto" width="800">
 </p>
 
 ---
