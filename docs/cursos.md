@@ -25,6 +25,8 @@ Abaixo estão listados os cursos de tecnologia que realizei, organizados por ár
 
 | Curso | Instituição | Carga Horária | Conclusão | Certificado |
 |-------|-------------|---------------|-----------|-------------|
+| **Nivelamento – Hackers do Bem** | SENAI / Softex / RNP | 80h | Junho/2026 | — |
+| **Básico – Hackers do Bem** | SENAI / Softex / RNP | 64h | Junho/2026 | — |
 | **Formação Cybersecurity Specialist** | DIO | 22h | Maio/2024 | — |
 | **Santander – Cibersegurança** | Santander Universidades / DIO | 53h | Março/2025 | — |
 
@@ -69,12 +71,12 @@ Abaixo estão listados os cursos de tecnologia que realizei, organizados por ár
 | Categoria | Quantidade | Carga Horária Total |
 |-----------|------------|----------------------|
 | Programação e Desenvolvimento | 4 | ~161h |
-| Cibersegurança | 2 | 75h |
+| Cibersegurança | 4 | 219h |
 | Banco de Dados | 1 | 20h |
 | Infraestrutura e Ferramentas | 2 | 8.5h |
 | Idiomas | 2 | 60h |
 | Inteligência Artificial | 1 | 6h |
-| **Total** | **12** | **~330.5h** |
+| **Total** | **14** | **~474.5h** |
 
 ---
 
