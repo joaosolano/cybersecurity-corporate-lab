@@ -110,6 +110,7 @@ Este laboratório simula uma empresa real com 3 andares (Recepção, Infraestrut
 - [📄 Cursos](cursos)
 - [📘 Manual de Boas Práticas](manual_boas_praticas)
 - [📄 Walkthrough](PROJECT_WALKTHROUGH)
+- [📄 Relatório de Incidente CT-SIRT-001](RELATORIO_INCIDENTE_CT-SIRT-001) 
 
 ---
 
