@@ -3,7 +3,7 @@ title: CyberTécnica LTDA
 layout: default
 ---
 
-# 🏛️ CyberTécnica LTDA – Laboratório de Cibersegurança
+<h1 align="center">🏛️ CyberTécnica LTDA – Laboratório de Cibersegurança</h1>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/joaosolano/cybersecurity-corporate-lab/main/logo_cybertecnica.png" alt="CyberTécnica Logo" width="200">
