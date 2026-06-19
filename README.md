@@ -137,9 +137,8 @@ Criador do Laboratório CyberTécnica
 
 ## 📖 Documentação Completa
 
-Para um **passo a passo detalhado** com todos os comandos, desafios e soluções, acesse:
-
-👉 [PROJECT_WALKTHROUGH.md](docs/PROJECT_WALKTHROUGH.md)
+- [PROJECT_WALKTHROUGH.md](docs/PROJECT_WALKTHROUGH.md)
+- [Manual de Boas Práticas](docs/manual_boas_praticas.md)
 
 ---
 
