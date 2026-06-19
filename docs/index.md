@@ -53,7 +53,8 @@ Este laboratório simula uma empresa real com 3 andares (Recepção, Infraestrut
 - [🏠 Página Inicial](/)
 - [📸 Evidências](evidencias)
 - [👤 Sobre o Autor](sobre)
-- [📄 Cursos e Certificações](cursos)
+- [📄 Cursos](cursos)
+- [📘 Manual de Boas Práticas](manual_boas_praticas)
 - [📄 Walkthrough](PROJECT_WALKTHROUGH)
 
 ---
