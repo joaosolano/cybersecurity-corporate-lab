@@ -82,8 +82,8 @@ Este laboratório simula uma empresa real com 3 andares (Recepção, Infraestrut
 | Manual de Boas Práticas | ✅ Concluído |
 | Página de Cursos | ✅ Concluído |
 | Preservação Forense | ✅ Concluído |
+| **pfSense / Firewall** | ✅ Concluído |
 | Modelagem 3D | ⏳ Planejado |
-| pfSense / Firewall | ✅ Concluído |
 
 ---
 
