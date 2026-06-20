@@ -103,8 +103,7 @@ Este laboratório simula uma empresa real com 3 andares (Recepção, Infraestrut
 
 ---
 
-## 📚 Navegação
-
+## Navegação
 - [🏠 Página Inicial](/)
 - [📸 Evidências](evidencias)
 - [👤 Sobre o Autor](sobre)
@@ -113,7 +112,7 @@ Este laboratório simula uma empresa real com 3 andares (Recepção, Infraestrut
 - [📄 Walkthrough](PROJECT_WALKTHROUGH)
 - [📄 Relatório de Incidente CT-SIRT-001](RELATORIO_INCIDENTE_CT-SIRT-001)
 - [🔐 Caso Pendrive-Cofre](/cofre_digital)
-- [🔥 pfSense / Firewall](docs/pfsense.md)
+- [🔥 pfSense / Firewall](/pfsense)
 
 ---
 
