@@ -69,6 +69,16 @@ Tudo rodando em um **HD externo portátil**, o que torna o ambiente replicável 
   - Teste de vulnerabilidade SMB (nenhuma crítica encontrada)
   - Detecção de sistema operacional (Windows 10 – 97% de precisão)
 
+### 🔐 Pendrive-Cofre com VeraCrypt
+
+- [x] Preservação forense do pendrive original (imagem bit a bit com `dcfldd`)
+- [x] Verificação de integridade com hashes MD5 e SHA-1
+- [x] Criação de volume criptografado com VeraCrypt (AES-256)
+- [x] Montagem, cópia de arquivos sensíveis e desmontagem segura
+- [x] Documentação completa com prints e procedimentos
+
+📄 [Detalhes do caso](docs/cofre_digital.md)
+
 ### Documentação e Portfólio
 
 - [x] Repositório GitHub atualizado
