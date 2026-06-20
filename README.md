@@ -1,160 +1,394 @@
-# 🏢 CyberTécnica LTDA – Laboratório de Cibersegurança
+# 🏢 CyberTécnica LTDA – Laboratório Corporativo de Cibersegurança
 
 <p align="center">
-  <img src="logo_cybertecnica.png" alt="CyberTécnica Logo" width="200">
+  <img src="logo_cybertecnica.png" alt="CyberTécnica Logo" width="220">
 </p>
 
 <p align="center">
-  <strong>Um laboratório corporativo de cibersegurança que simula uma empresa real com 3 andares, integrando segurança física e lógica.</strong>
+  <strong>
+    Um laboratório corporativo de cibersegurança desenvolvido para simular uma empresa real,
+    integrando infraestrutura, redes, segurança física, segurança lógica,
+    computação forense e testes ofensivos em um ambiente totalmente portátil.
+  </strong>
 </p>
 
 <p align="center">
-  <a href="https://github.com/joaosolano/cybersecurity-corporate-lab"><img src="https://img.shields.io/badge/repositório-GitHub-blue?style=flat-square&logo=github" alt="GitHub"></a>
-  <a href="https://joaosolano.github.io/cybersecurity-corporate-lab/"><img src="https://img.shields.io/badge/site-online-brightgreen?style=flat-square&logo=githubpages" alt="Site"></a>
-  <a href="https://github.com/joaosolano/cybersecurity-corporate-lab/blob/main/LICENSE"><img src="https://img.shields.io/badge/licença-MIT-green?style=flat-square" alt="MIT License"></a>
-  <a href="https://www.linkedin.com/in/joão-solano-310774138/"><img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin" alt="LinkedIn"></a>
+
+<a href="https://github.com/joaosolano/cybersecurity-corporate-lab">
+<img src="https://img.shields.io/badge/Repositório-GitHub-blue?style=flat-square&logo=github">
+</a>
+
+<a href="https://joaosolano.github.io/cybersecurity-corporate-lab/">
+<img src="https://img.shields.io/badge/Site-GitHub%20Pages-brightgreen?style=flat-square&logo=githubpages">
+</a>
+
+<a href="https://github.com/joaosolano/cybersecurity-corporate-lab/blob/main/LICENSE">
+<img src="https://img.shields.io/badge/Licença-MIT-green?style=flat-square">
+</a>
+
+<a href="https://www.linkedin.com/in/joão-solano-310774138/">
+<img src="https://img.shields.io/badge/LinkedIn-blue?style=flat-square&logo=linkedin">
+</a>
+
 </p>
 
 ---
 
-## 🎯 Sobre o Projeto
+# 🎯 Sobre o Projeto
 
-O **CyberTécnica LTDA** é um laboratório portátil criado para simular uma empresa real de cibersegurança. Ele integra:
+O **CyberTécnica LTDA** é um laboratório de cibersegurança construído para reproduzir o funcionamento de uma empresa real.
 
-- **Segurança física**: modelagem 3D do prédio com 3 andares.
-- **Segurança lógica**: redes, firewalls, ataques controlados e análise de tráfego.
+Ao invés de utilizar apenas máquinas virtuais isoladas, o projeto simula uma infraestrutura corporativa completa, composta por diferentes setores, serviços, políticas de segurança e cenários de ataque e defesa.
 
-Tudo rodando em um **HD externo portátil**, o que torna o ambiente replicável e demonstrável.
+Todo o ambiente foi desenvolvido para ser **portátil**, funcionando integralmente em um **HD externo**, permitindo demonstrações, estudos e experimentações em qualquer computador compatível.
 
----
+O objetivo principal é consolidar conhecimentos práticos nas áreas de:
 
-## 🏗️ Estrutura do Laboratório
-
-| Andar        | Função                     | Tecnologias                     | IP            |
-|--------------|----------------------------|--------------------------------|---------------|
-| **Térreo**   | Recepção / Área Pública    | Ubuntu Server + Apache + PHP   | `192.168.18.29` |
-| **1º Andar** | Infraestrutura / TI        | Windows 10 + Wireshark         | `192.168.18.30` |
-| **2º Andar** *(planejado)* | Diretoria / SCIF | Windows 10 (futuro)            | `192.168.18.32` (futuro) |
-| **Atacante** | Testes de segurança        | Kali Linux + Nmap              | `192.168.18.31` |
-
----
-
-## ✅ Etapas Concluídas
-
-### Infraestrutura Física e Virtual
-
-- [x] HD externo de 465 GB formatado em exFAT (`LAB_CYBER`)
-- [x] VirtualBox 7.2.8 instalado (versão estável)
-- [x] Estrutura de pastas organizada
-
-### Térreo – Recepção
-
-- [x] Ubuntu Server com Apache2 + PHP
-- [x] Formulário de pré‑cadastro de visitantes (nome, empresa, telefone, destino, motivo)
-- [x] Design profissional com gradiente, sombras e responsividade
-
-### 1º Andar – Infraestrutura / TI
-
-- [x] Windows 10 instalado (chave KMS, sem ativação)
-- [x] Firewall liberado para ICMP (`netsh advfirewall ...`)
-- [x] Wireshark instalado e configurado
-- [x] Ping funcional entre andares
-
-### Atacante – Kali Linux
-
-- [x] Rede Bridge configurada (IP `192.168.18.31`)
-- [x] Nmap instalado e utilizado para:
-  - Descoberta de rede (`nmap -sn 192.168.18.0/24`)
-  - Escaneamento de portas no Ubuntu (porta 80) e Windows (SMB)
-  - Teste de vulnerabilidade SMB (nenhuma crítica encontrada)
-  - Detecção de sistema operacional (Windows 10 – 97% de precisão)
-
-### 🔐 Pendrive-Cofre com VeraCrypt
-
-- [x] Preservação forense do pendrive original (imagem bit a bit com `dcfldd`)
-- [x] Verificação de integridade com hashes MD5 e SHA-1
-- [x] Criação de volume criptografado com VeraCrypt (AES-256)
-- [x] Montagem, cópia de arquivos sensíveis e desmontagem segura
-- [x] Documentação completa com prints e procedimentos
-
-📄 [Detalhes do caso](docs/cofre_digital.md)
-
-### Documentação e Portfólio
-
-- [x] Repositório GitHub atualizado
-- [x] README profissional com badges, tabelas e checklist
-- [x] Pasta `screenshots/` com 21+ evidências
-- [x] Documento `PROJECT_WALKTHROUGH.md` detalhado
-- [x] Logomarca criada com Python (Pillow)
-- [x] Site no GitHub Pages ([acessar](https://joaosolano.github.io/cybersecurity-corporate-lab/))
+- Segurança da Informação
+- Administração de Sistemas Linux e Windows
+- Redes de Computadores
+- Computação Forense
+- Pentest
+- Hardening
+- Virtualização
+- Monitoramento
+- Documentação Técnica
+- Modelagem 3D aplicada à Segurança Física
 
 ---
 
-## 📸 Galeria de Evidências
+# 🏛️ Arquitetura do Laboratório
 
-As principais capturas de tela do laboratório estão disponíveis em:
+O laboratório representa uma empresa fictícia denominada **CyberTécnica LTDA**, organizada em três andares físicos e uma estação dedicada à simulação de ataques.
 
-📁 [`screenshots/`](screenshots/)
+Cada ambiente possui uma função específica dentro da organização, reproduzindo cenários encontrados em empresas reais.
 
-Ou visite a [página de evidências](https://joaosolano.github.io/cybersecurity-corporate-lab/evidencias) no site do projeto.
 
----
-
-## 🛠️ Ferramentas e Tecnologias
-
-| Categoria           | Ferramentas |
-|---------------------|-------------|
-| **Virtualização**   | VirtualBox, Guest Additions |
-| **Sistemas**        | Kali Linux, Ubuntu Server, Windows 10 |
-| **Rede**            | Bridge, NAT, ICMP, SMB, RPC |
-| **Serviços**        | Apache2, PHP, Wireshark, Nmap |
-| **Documentação**    | GitHub, Markdown, Python (Pillow) |
-| **Modelagem 3D**    | FreeCAD (iniciado) |
 
 ---
 
-## 🚀 Próximos Passos (Extrapolação)
+A **Parte 2** trará toda a seção **Etapas Concluídas**, incluindo:
 
-### Lógica e Redes
-- [ ] Configurar **pfSense** para isolar logicamente os 3 andares (VLANs, DMZ, Diretoria)
-- [ ] Implementar **Metasploit** para simulação de ataques controlados
-- [ ] Instalar **Snort/Suricata** como IDS/IPS no Ubuntu
+- Ubuntu Server
+- Apache
+- PHP
+- Windows
+- Wireshark
+- Kali Linux
+- **UFW (Firewall)**
+- **Hardening**
+- **Aprendizados**
+- Nmap
+- VeraCrypt
+- Computação Forense
 
-### Física (Modelagem 3D)
-- [ ] Modelar o prédio completo no **FreeCAD** com:
-  - Térreo: recepção, catracas, câmeras
-  - 1º andar: sala‑cofre, racks de servidores, armários blindados
-  - 2º andar: diretoria, sala SCIF
-- [ ] Importar/exportar **IFC** para interoperabilidade BIM
-
-### Integração e Automação
-- [ ] Painel administrativo para o formulário de visitantes (login, SQLite)
-- [ ] Scripts Python para automatizar ataques e coletar logs
-- [ ] Vídeo de demonstração do laboratório
+Essa será a parte mais técnica do README.
 
 ---
 
-## 👤 Autor
+# 📚 Documentação e Portfólio
 
-**João Solano**  
-Pós‑graduando em Computação Forense e Perícia Digital – Unopar  
-Criador do Laboratório CyberTécnica
+Todo o desenvolvimento do laboratório foi documentado para garantir rastreabilidade, reprodutibilidade e organização das atividades.
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/joão-solano-310774138/)
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github)](https://github.com/joaosolano)
+## ✅ Documentação produzida
+
+- [x] Repositório GitHub estruturado
+- [x] README profissional
+- [x] Checklist de evolução do projeto
+- [x] Documentação técnica em Markdown
+- [x] Capturas de tela organizadas
+- [x] Projeto publicado no GitHub Pages
+- [x] Logomarca desenvolvida em Python utilizando Pillow
+- [x] Procedimentos forenses documentados
+- [x] Walkthrough completo do laboratório
 
 ---
 
-## 📖 Documentação Completa
+# 📸 Galeria de Evidências
 
-- [PROJECT_WALKTHROUGH.md](docs/PROJECT_WALKTHROUGH.md)
-- [Manual de Boas Práticas](docs/manual_boas_praticas.md)
+Durante o desenvolvimento foram registradas diversas evidências das atividades realizadas.
+
+As principais capturas encontram-se na pasta:
+
+```
+screenshots/
+```
+
+Entre elas:
+
+- Instalação das máquinas virtuais
+- Configuração das redes
+- Apache em funcionamento
+- Formulário corporativo
+- Capturas do Wireshark
+- Escaneamentos realizados com Nmap
+- Configuração do Firewall
+- VeraCrypt
+- Preservação forense
+- Estrutura do laboratório
+
+Também é possível visualizar todas as evidências através do GitHub Pages do projeto.
 
 ---
 
-## 📄 Licença
+# 🛠️ Ferramentas e Tecnologias
 
-Este projeto está sob a licença MIT. Consulte o arquivo [`LICENSE`](LICENSE) para mais informações.
+| Categoria | Tecnologias |
+|------------|-------------|
+| **Virtualização** | VirtualBox 7.2.8, Guest Additions |
+| **Sistemas Operacionais** | Ubuntu Server, Windows 10, Kali Linux |
+| **Redes** | Bridge, NAT, ICMP, TCP/IP, SMB, RPC |
+| **Firewall** | UFW (Uncomplicated Firewall), Windows Defender Firewall |
+| **Serviços** | Apache2, PHP |
+| **Análise de Rede** | Wireshark |
+| **Pentest** | Nmap |
+| **Criptografia** | VeraCrypt (AES-256) |
+| **Computação Forense** | dcfldd, MD5, SHA-1 |
+| **Documentação** | GitHub, Markdown |
+| **Programação** | Python (Pillow) |
+| **Modelagem 3D** | FreeCAD *(em desenvolvimento)* |
+
+---
+
+# 📚 Lições Aprendidas
+
+O desenvolvimento do laboratório proporcionou experiência prática em diversas áreas da Segurança da Informação.
+
+Entre os principais conhecimentos consolidados estão:
+
+- Administração de servidores Linux.
+- Administração de estações Windows.
+- Virtualização utilizando VirtualBox.
+- Configuração de redes em modo Bridge.
+- Endereçamento IP.
+- Captura e análise de tráfego utilizando Wireshark.
+- Reconhecimento de hosts e serviços utilizando Nmap.
+- Hardening de servidores Linux.
+- Configuração de firewalls.
+- Preservação forense de dispositivos de armazenamento.
+- Criptografia de dados utilizando VeraCrypt.
+- Organização de documentação técnica.
+- Desenvolvimento de portfólio profissional.
+
+---
+
+## 🔐 Destaque Técnico
+
+Uma das principais práticas implementadas foi a política padrão do **UFW**:
+
+```bash
+deny incoming
+allow outgoing
+```
+
+Essa abordagem segue o princípio do **menor privilégio**, permitindo que o servidor estabeleça conexões de saída normalmente, enquanto bloqueia conexões de entrada não autorizadas.
+
+Essa configuração reduz significativamente a superfície de ataque e representa uma prática recomendada para ambientes corporativos.
+
+---
+
+# 🚀 Próximos Passos
+
+O laboratório continuará evoluindo para representar uma infraestrutura corporativa ainda mais completa.
+
+## 🌐 Redes e Segurança
+
+- [ ] Implantação do pfSense como firewall principal
+- [ ] Segmentação da rede utilizando VLANs
+- [ ] Implementação de DMZ
+- [ ] Isolamento lógico dos três andares
+- [ ] Regras avançadas de firewall
+- [ ] VPN para acesso remoto seguro
+
+---
+
+## 🛡️ Defesa
+
+- [ ] Implantação do Snort
+- [ ] Implantação do Suricata
+- [ ] Centralização de logs
+- [ ] Monitoramento de eventos
+- [ ] Dashboards de segurança
+
+---
+
+## ⚔️ Segurança Ofensiva
+
+- [ ] Implantação do Metasploit Framework
+- [ ] Simulações de ataques controlados
+- [ ] Enumeração automatizada
+- [ ] Exploração de vulnerabilidades em ambiente isolado
+
+---
+
+## 🏢 Infraestrutura Corporativa
+
+- [ ] Active Directory
+- [ ] DNS
+- [ ] DHCP
+- [ ] Compartilhamento de arquivos
+- [ ] Servidor de autenticação
+- [ ] Controle de usuários
+
+---
+
+## 🧱 Modelagem 3D
+
+Desenvolvimento completo do prédio da CyberTécnica utilizando FreeCAD.
+
+O objetivo é representar visualmente a infraestrutura física da empresa.
+
+### Térreo
+
+- Recepção
+- Controle de acesso
+- Catracas
+- Câmeras
+- Sala de espera
+
+### Primeiro Andar
+
+- Infraestrutura
+- Sala dos servidores
+- Rack principal
+- Cabeamento estruturado
+- Sala-cofre
+
+### Segundo Andar
+
+- Diretoria
+- Sala SCIF
+- Sala de reuniões
+- Ambiente de documentos sigilosos
+
+Também está prevista a exportação do modelo em formato **IFC**, permitindo interoperabilidade BIM.
+
+---
+
+## 🤖 Automação
+
+- [ ] Painel administrativo da recepção
+- [ ] Banco SQLite
+- [ ] Login administrativo
+- [ ] Scripts Python para automação
+- [ ] Geração automática de relatórios
+- [ ] Coleta de logs
+- [ ] Dashboard do laboratório
+
+---
+
+## 🎥 Demonstração
+
+- [ ] Produção de vídeo demonstrando toda a infraestrutura.
+- [ ] Demonstração prática dos ataques e defesas.
+- [ ] Tour completo pelo laboratório.
+
+---
+
+# 📈 Roadmap
+
+```text
+Infraestrutura
+      │
+      ▼
+Ubuntu Server
+      │
+      ▼
+Apache + PHP
+      │
+      ▼
+Windows 10
+      │
+      ▼
+Wireshark
+      │
+      ▼
+Kali Linux
+      │
+      ▼
+Firewall UFW
+      │
+      ▼
+VeraCrypt
+      │
+      ▼
+pfSense
+      │
+      ▼
+Snort / Suricata
+      │
+      ▼
+Active Directory
+      │
+      ▼
+SOC Corporativo
+```
+
+---
+
+# 👤 Autor
+
+## João Solano
+
+Graduado em História.
+
+Pós-graduado em Ética e Filosofia Política.
+
+Graduado em Análise e Desenvolvimento de Sistemas.
+
+Pós-graduando em **Computação Forense e Perícia Digital**.
+
+Criador do **Laboratório CyberTécnica LTDA**, um ambiente corporativo de cibersegurança voltado ao desenvolvimento de competências práticas em infraestrutura, segurança ofensiva, segurança defensiva, computação forense e documentação técnica.
+
+### Contato
+
+**LinkedIn**
+
+https://www.linkedin.com/in/joão-solano-310774138/
+
+**GitHub**
+
+https://github.com/joaosolano
+
+---
+
+# 📖 Documentação Completa
+
+O projeto possui documentação complementar contendo procedimentos detalhados, capturas de tela e guias técnicos.
+
+## Documentos disponíveis
+
+```
+docs/
+│
+├── PROJECT_WALKTHROUGH.md
+├── manual_boas_praticas.md
+├── cofre_digital.md
+```
+
+---
+
+# 📄 Licença
+
+Este projeto é distribuído sob a licença **MIT**.
+
+Consulte o arquivo:
+
+```
+LICENSE
+```
+
+para mais informações.
+
+---
+
+# ⭐ Considerações Finais
+
+O **CyberTécnica LTDA** é um laboratório em constante evolução, desenvolvido com o objetivo de aproximar teoria e prática por meio da simulação de uma infraestrutura corporativa realista.
+
+Além de servir como ambiente de estudos em cibersegurança, o projeto também funciona como um portfólio técnico, demonstrando competências em administração de sistemas, redes, hardening, computação forense, segurança ofensiva e documentação profissional.
+
+Cada nova funcionalidade implementada representa um novo cenário de aprendizado, tornando o laboratório uma plataforma permanente para experimentação, validação de conceitos e desenvolvimento contínuo.
 
 ---
 
