@@ -83,7 +83,7 @@ Este laboratório simula uma empresa real com 3 andares (Recepção, Infraestrut
 | Página de Cursos | ✅ Concluído |
 | Preservação Forense | ✅ Concluído |
 | Modelagem 3D | ⏳ Planejado |
-| pfSense / Firewall | ⏳ Planejado |
+| pfSense / Firewall | ✅ Concluído |
 
 ---
 
@@ -113,6 +113,7 @@ Este laboratório simula uma empresa real com 3 andares (Recepção, Infraestrut
 - [📄 Walkthrough](PROJECT_WALKTHROUGH)
 - [📄 Relatório de Incidente CT-SIRT-001](RELATORIO_INCIDENTE_CT-SIRT-001)
 - [🔐 Caso Pendrive-Cofre](/cofre_digital)
+- [🔥 pfSense / Firewall](docs/pfsense.md)
 
 ---
 
