@@ -81,7 +81,7 @@ Este laboratório simula uma empresa real com 3 andares (Recepção, Infraestrut
 | Site GitHub Pages | ✅ Concluído |
 | Manual de Boas Práticas | ✅ Concluído |
 | Página de Cursos | ✅ Concluído |
-| Preservação Forense | 🔄 Em andamento |
+| Preservação Forense | ✅ Concluído |
 | Modelagem 3D | ⏳ Planejado |
 | pfSense / Firewall | ⏳ Planejado |
 
@@ -89,6 +89,7 @@ Este laboratório simula uma empresa real com 3 andares (Recepção, Infraestrut
 
 ## 🔐 Casos Práticos
 
+- [Caso Pendrive-Cofre com VeraCrypt](/cofre_digital) – preservação forense, criptografia AES-256, documentação completa com hashes e desafios superados.
 - [Preservação Forense de Pendrive](FORENSIC_PRESERVATION.md) – criação de imagem bit a bit, criptografia e envio seguro para a nuvem.
 
 ---
@@ -110,7 +111,8 @@ Este laboratório simula uma empresa real com 3 andares (Recepção, Infraestrut
 - [📄 Cursos](cursos)
 - [📘 Manual de Boas Práticas](manual_boas_praticas)
 - [📄 Walkthrough](PROJECT_WALKTHROUGH)
-- [📄 Relatório de Incidente CT-SIRT-001](RELATORIO_INCIDENTE_CT-SIRT-001) 
+- [📄 Relatório de Incidente CT-SIRT-001](RELATORIO_INCIDENTE_CT-SIRT-001)
+- [🔐 Caso Pendrive-Cofre](/cofre_digital)
 
 ---
 
