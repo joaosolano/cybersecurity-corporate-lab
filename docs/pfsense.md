@@ -1,3 +1,9 @@
+---
+layout: default
+title: pfSense / Firewall Corporativo
+permalink: /docs/pfsense/
+---
+
 # 🔥 pfSense / Firewall Corporativo – CyberTécnica LTDA
 
 ## O que é o pfSense?
