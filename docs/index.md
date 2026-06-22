@@ -89,8 +89,7 @@ Este laboratório simula uma empresa real com 3 andares (Recepção, Infraestrut
 
 ## 🔐 Casos Práticos
 
-- [Caso Pendrive-Cofre com VeraCrypt](/cofre_digital) – preservação forense, criptografia AES-256, documentação completa com hashes e desafios superados.
-- [Preservação Forense de Pendrive](FORENSIC_PRESERVATION.md) – criação de imagem bit a bit, criptografia e envio seguro para a nuvem.
+- [Caso Pendrive-Cofre com VeraCrypt](cofre_digital.html) – preservação forense, criptografia AES-256, documentação completa com hashes e desafios superados.
 
 ---
 
@@ -103,16 +102,17 @@ Este laboratório simula uma empresa real com 3 andares (Recepção, Infraestrut
 
 ---
 
-## Navegação
+## 📚 Navegação
+
 - [🏠 Página Inicial](/)
-- [📸 Evidências](evidencias)
-- [👤 Sobre o Autor](sobre)
-- [📄 Cursos](cursos)
-- [📘 Manual de Boas Práticas](manual_boas_praticas)
-- [📄 Walkthrough](PROJECT_WALKTHROUGH)
-- [📄 Relatório de Incidente CT-SIRT-001](RELATORIO_INCIDENTE_CT-SIRT-001)
+- [📸 Evidências](evidencias.html)
+- [👤 Sobre o Autor](sobre.html)
+- [📄 Cursos](cursos.html)
+- [📘 Manual de Boas Práticas](manual_boas_praticas.html)
+- [📄 Walkthrough](PROJECT_WALKTHROUGH.html)
+- [📄 Relatório de Incidente CT-SIRT-001](RELATORIO_INCIDENTE_CT-SIRT-001.html)
 - [🔐 Caso Pendrive-Cofre com VeraCrypt](cofre_digital.html)
-- [🔥 pfSense / Firewall](/pfsense)
+- [🔥 pfSense / Firewall](pfsense.html)
 
 ---
 
