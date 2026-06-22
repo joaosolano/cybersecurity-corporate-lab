@@ -13,7 +13,6 @@ layout: default
   <strong>🔐 Segurança que se ensina, se testa e se vive.</strong>
 </p>
 
-<!-- === BADGES - TECNOLOGIAS === -->
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8+-blue?style=flat-square&logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/VirtualBox-7.2.8-183A61?style=flat-square&logo=virtualbox&logoColor=white" alt="VirtualBox">
@@ -27,7 +26,6 @@ layout: default
   <img src="https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=githubpages&logoColor=white" alt="GitHub Pages">
 </p>
 
-<!-- === BADGES - STATUS E ESTATÍSTICAS === -->
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=flat-square" alt="Status">
   <img src="https://img.shields.io/badge/Última_Atualização-Junho_2026-blue?style=flat-square" alt="Última Atualização">
@@ -40,7 +38,6 @@ layout: default
   <img src="https://img.shields.io/github/repo-size/joaosolano/cybersecurity-corporate-lab?style=flat-square" alt="Repo Size">
 </p>
 
-<!-- === BADGES - REDES SOCIAIS === -->
 <p align="center">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn">
   <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub">
@@ -48,7 +45,6 @@ layout: default
 
 ---
 
-<!-- === IMAGEM DO PROJETO === -->
 <p align="center">
   <img src="imagem_projeto.png.jpg" alt="CyberTécnica Projeto" width="800">
 </p>
@@ -89,7 +85,7 @@ Este laboratório simula uma empresa real com 3 andares (Recepção, Infraestrut
 
 ## 🔐 Casos Práticos
 
-- [Caso Pendrive-Cofre com VeraCrypt](cofre_digital.html) – preservação forense, criptografia AES-256, documentação completa com hashes e desafios superados.
+- [Caso Pendrive-Cofre com VeraCrypt]({{ '/cofre_digital' | relative_url }}) – preservação forense, criptografia AES-256, documentação completa com hashes e desafios superados.
 
 ---
 
@@ -104,15 +100,15 @@ Este laboratório simula uma empresa real com 3 andares (Recepção, Infraestrut
 
 ## 📚 Navegação
 
-- [🏠 Página Inicial](/)
-- [📸 Evidências](evidencias.html)
-- [👤 Sobre o Autor](sobre.html)
-- [📄 Cursos](cursos.html)
-- [📘 Manual de Boas Práticas](manual_boas_praticas.html)
-- [📄 Walkthrough](PROJECT_WALKTHROUGH.html)
-- [📄 Relatório de Incidente CT-SIRT-001](RELATORIO_INCIDENTE_CT-SIRT-001.html)
-- [🔐 Caso Pendrive-Cofre com VeraCrypt](cofre_digital.html)
-- [🔥 pfSense / Firewall](pfsense.html)
+- [🏠 Página Inicial]({{ '/' | relative_url }})
+- [📸 Evidências]({{ '/evidencias' | relative_url }})
+- [👤 Sobre o Autor]({{ '/sobre' | relative_url }})
+- [📄 Cursos]({{ '/cursos' | relative_url }})
+- [📘 Manual de Boas Práticas]({{ '/manual_boas_praticas' | relative_url }})
+- [📄 Walkthrough]({{ '/PROJECT_WALKTHROUGH' | relative_url }})
+- [📄 Relatório de Incidente CT-SIRT-001]({{ '/RELATORIO_INCIDENTE_CT-SIRT-001' | relative_url }})
+- [🔐 Caso Pendrive-Cofre com VeraCrypt]({{ '/cofre_digital' | relative_url }})
+- [🔥 pfSense / Firewall]({{ '/pfsense' | relative_url }})
 
 ---
 
