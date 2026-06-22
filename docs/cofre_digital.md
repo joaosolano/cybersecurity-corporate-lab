@@ -1,7 +1,6 @@
 ---
-title: "Caso Pendrive-Cofre com VeraCrypt"
+title: Caso Pendrive-Cofre com VeraCrypt
 layout: default
-permalink: /cofre_digital/
 ---
 
 # 🔐 Caso Prático: Pendrive-Cofre com VeraCrypt
