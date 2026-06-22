@@ -90,6 +90,7 @@ Este laboratório simula uma empresa real com 3 andares (Recepção, Infraestrut
 ## 🔐 Casos Práticos
 
 - [Caso Pendrive-Cofre com VeraCrypt](cofre_digital.html) – preservação forense, criptografia AES-256, documentação completa com hashes e desafios superados.
+- **[🔐 E-mail Seguro e Irrastreável](email_seguro.html)** – criação de e‑mail anônimo com ProtonMail, Tor e Kali Linux para cadastro seguro em redes sociais.
 
 ---
 
@@ -113,6 +114,7 @@ Este laboratório simula uma empresa real com 3 andares (Recepção, Infraestrut
 - [📄 Relatório de Incidente CT-SIRT-001](RELATORIO_INCIDENTE_CT-SIRT-001.html)
 - [🔐 Caso Pendrive-Cofre com VeraCrypt](cofre_digital.html)
 - [🔥 pfSense / Firewall](pfsense.html)
+- **[🔐 E-mail Seguro](email_seguro.html)**  <!-- NOVO LINK -->
 
 ---
 
