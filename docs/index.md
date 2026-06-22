@@ -111,7 +111,7 @@ Este laboratório simula uma empresa real com 3 andares (Recepção, Infraestrut
 - [📘 Manual de Boas Práticas](manual_boas_praticas.html)
 - [📄 Walkthrough](PROJECT_WALKTHROUGH.html)
 - [📄 Relatório de Incidente CT-SIRT-001](RELATORIO_INCIDENTE_CT-SIRT-001.html)
-- [🔐 Caso Pendrive-Cofre com VeraCrypt](cofre_digital.html)
+- [🔐 Caso Pendrive-Cofre com VeraCrypt](cofre_digital)
 - [🔥 pfSense / Firewall](pfsense.html)
 
 ---
