@@ -4,8 +4,6 @@ layout: default
 permalink: /cofre_digital
 ---
 
-📄 **Conteúdo completo do cofre_digital.md (com itens 2 a 7)**
-
 # 🔐 Caso Prático: Pendrive-Cofre com VeraCrypt
 
 ## 📌 Contexto
