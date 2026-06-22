@@ -1,0 +1,126 @@
+---
+layout: default
+title: Caso – E-mail Seguro e Irrastreável
+permalink: /casos/email-seguro/
+---
+
+# 🔐 Caso Prático: E-mail Seguro e Irrastreável
+
+## 📌 Contexto
+
+Um cliente da **CyberTécnica LTDA** solicitou a criação de um endereço de e-mail seguro e irrastreável para cadastro em uma rede social, visando divulgar um produto sem expor seu e-mail pessoal a riscos de invasão, spam ou rastreamento.
+
+---
+
+## 🎯 Objetivo
+
+- Criar um e-mail com alto grau de privacidade e anonimato.
+- Garantir que o e-mail não pudesse ser vinculado à identidade real do cliente.
+- Utilizar boas práticas de segurança (senha forte, 2FA, sem dados pessoais).
+
+---
+
+## 🛠️ Ferramentas Utilizadas
+
+- **Kali Linux** – ambiente isolado para execução do serviço.
+- **Tor Browser** – navegação anônima para criação da conta.
+- **ProtonMail** – serviço de e-mail com criptografia de ponta a ponta e foco em privacidade.
+- **Gerenciador de senhas** – para armazenar credenciais de forma segura.
+
+---
+
+## 🧪 Procedimento Executado
+
+### 1. Preparação do Ambiente
+
+A máquina Kali foi configurada com o Tor e o navegador Tor para garantir que o IP real do operador não fosse registrado.
+
+```bash
+sudo apt update && sudo apt install tor torbrowser-launcher -y
+
+
+# 📬 Parte 2 – Utilização, Monitoramento e Descarte do E-mail
+
+*(Continuação do procedimento para a CyberTécnica LTDA)*
+
+---
+
+## 5. 📱 Cadastro na Rede Social (Uso Prático)
+
+Com o e-mail anônimo criado, o próximo passo foi realizar o cadastro na rede social solicitada pelo cliente, mantendo todo o rigor de segurança.
+
+### Procedimento de Cadastro:
+
+1. **Acesso isolado:** O cliente (ou o técnico, sob supervisão) acessou a rede social exclusivamente via **Navegador Tor**, garantindo que o IP de origem não fosse o da empresa ou o IP residencial.
+2. **Dados fictícios:** Foram utilizados dados de cadastro totalmente fictícios (nome, data de nascimento, localização), sem qualquer relação com a identidade real do cliente.
+3. **Verificação de e-mail:** O código de verificação enviado pela rede social foi recebido na caixa de entrada do ProtonMail criado anteriormente. O acesso foi feito via Tor para não cruzar dados.
+4. **Desativação de rastreadores:** Dentro das configurações da rede social, foram desativadas todas as opções de "localização", "rastreamento de anúncios" e "sincronização de contatos".
+
+---
+
+## 6. 🕵️ Testes de Irrastreabilidade (Validação Técnica)
+
+Para garantir que o e-mail realmente não poderia ser rastreado até o cliente, foram executados os seguintes testes:
+
+| Teste | Método | Resultado |
+|-------|--------|-----------|
+| **Vazamento de IP** | Envio de um e-mail de teste para uma conta de monitoramento (via Tor) e análise dos cabeçalhos completos (`Show Original`). | O IP exibido era de um nó de saída do Tor, não do cliente ou da empresa. |
+| **Fingerprint de Navegador** | Uso do navegador Tor com segurança máxima (padrão "Safest"). | O fingerprint foi padronizado, impossibilitando a identificação única do usuário. |
+| **Vazamento de Metadados** | Verificação se o ProtonMail insere metadados (como ID de sessão) nos cabeçalhos. | Apenas o servidor do ProtonMail foi identificado, sem rastro do dispositivo original. |
+| **Teste de Recuperação** | Tentativa de recuperar a senha usando o número de telefone ou e-mail alternativo. | Impossível, pois nenhum desses dados foi fornecido no cadastro. |
+
+---
+
+## 7. 🗑️ Gerenciamento do Ciclo de Vida do E-mail (Descarte Seguro)
+
+Como o e-mail foi solicitado com caráter **descartável ou de uso restrito**, foi estabelecido um plano de gerenciamento e descarte para evitar o acúmulo de dados e reduzir a superfície de ataque.
+
+### Etapas do Descarte:
+
+1. **Prazo de validade:** O cliente definiu que o e-mail seria utilizado por **60 dias** (período da campanha de divulgação).
+2. **Alerta de desativação:** Foi configurado um lembrete no calendário do cliente (em um dispositivo off-line) para desativar a conta ao final do período.
+3. **Procedimento de exclusão no ProtonMail:**
+   - Acessar a conta via Tor.
+   - Ir em **Configurações > Excluir Conta**.
+   - Confirmar a exclusão utilizando a senha e o código 2FA.
+   - O sistema do ProtonMail aguarda **14 dias** antes da exclusão definitiva (período de carência para arrependimento).
+4. **Inutilização da chave de recuperação:** O arquivo criptografado contendo as credenciais foi **destruído fisicamente** (exclusão segura com `shred -vf arquivo.7z` no Kali Linux) após a confirmação da exclusão da conta.
+
+---
+
+## 8. 📋 Orientações Finais Entregues ao Cliente
+
+Além das credenciais, foi entregue ao cliente um pequeno manual de boas práticas:
+
+> **"Cartilha do E-mail Descartável"**
+>
+> 1. **Nunca** utilize este e-mail para enviar mensagens pessoais ou profissionais.
+> 2. **Nunca** acesse este e-mail fora do Navegador Tor ou de uma rede VPN confiável (sem logs).
+> 3. **Nunca** adicione este e-mail como "e-mail de recuperação" em outras contas pessoais.
+> 4. Ao final do uso, **exclua a conta** imediatamente.
+> 5. Em caso de suspeita de comprometimento, **não tente recuperar a conta**; apenas a abandone e crie uma nova, seguindo o mesmo procedimento.
+
+---
+
+## 9. ✅ Lições Aprendidas e Conclusão do Caso
+
+Este caso prático demonstrou que é perfeitamente viável criar um e-mail funcional e com alto grau de anonimato, desde que sejam seguidas rigorosamente as etapas de isolamento (Kali + Tor), escolha do provedor correto (ProtonMail) e gestão do ciclo de vida.
+
+### Principais aprendizados:
+
+- O **Tor** é indispensável para ocultar o IP, mas o comportamento do usuário (horários de acesso, linguagem utilizada) também pode vazar identidade – por isso, o cliente foi orientado a manter padrões genéricos.
+- A **segurança do fator humano** foi o elo mais frágil; a entrega pessoal do arquivo criptografado mitigou esse risco.
+- O uso de e-mail descartável é uma excelente estratégia de *cyber hygiene* para evitar que o e-mail principal seja vazado em *breaches* de dados de redes sociais.
+
+---
+
+## 📎 Anexo Técnico (Para o Relatório Interno da CyberTécnica)
+
+- **Hash do arquivo entregue ao cliente (SHA-256):** `a1b2c3d4e5f6...` (arquivo deletado após confirmação)
+- **Data de criação:** [Data do procedimento]
+- **Data prevista para exclusão:** [Data + 60 dias]
+- **Responsável técnico:** [Nome do Analista]
+
+---
+
+**Fim do procedimento – Caso encerrado com sucesso.** 🛡️
