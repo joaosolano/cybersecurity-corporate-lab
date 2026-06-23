@@ -61,140 +61,167 @@
             border: 0;
             border-top: 1px solid #ddd;
         }
+        a {
+            color: #003366;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
     </style>
 </head>
 <body>
+<div class="container">
 
-<h1>🔐 Caso Prático: E-mail Seguro e Irrastreável</h1>
+    <h1>🔐 Caso Prático: E-mail Seguro e Irrastreável</h1>
 
-<h2>📌 Contexto</h2>
-<p>Um cliente da <strong>CyberTécnica LTDA</strong> solicitou a criação de um endereço de e-mail seguro e irrastreável para ser utilizado exclusivamente no cadastro de uma rede social, onde divulgaria seu produto.</p>
-<p>O objetivo era proteger o e-mail principal do cliente contra invasões, spam e rastreamento, além de evitar a vinculação com sua identidade pessoal.</p>
+    <h2>📌 Contexto</h2>
+    <p>Um cliente da <strong>CyberTécnica LTDA</strong> solicitou a criação de um endereço de e-mail seguro e irrastreável para ser utilizado exclusivamente no cadastro de uma rede social, onde divulgaria seu produto.</p>
+    <p>O objetivo era proteger o e-mail principal do cliente contra invasões, spam e rastreamento, além de evitar a vinculação com sua identidade pessoal.</p>
 
-<hr>
+    <hr>
 
-<h2>🎯 Objetivo</h2>
-<ul>
-    <li>Criar um e-mail funcional, seguro e com alto grau de anonimato.</li>
-    <li>Garantir que o e-mail não pudesse ser rastreado até o cliente.</li>
-    <li>Entregar as credenciais de forma segura.</li>
-</ul>
+    <h2>🎯 Objetivo</h2>
+    <ul>
+        <li>Criar um e-mail funcional, seguro e com alto grau de anonimato.</li>
+        <li>Garantir que o e-mail não pudesse ser rastreado até o cliente.</li>
+        <li>Entregar as credenciais de forma segura.</li>
+    </ul>
 
-<hr>
+    <hr>
 
-<h2>🛠️ Ferramentas Utilizadas</h2>
-<table>
-    <tr>
-        <th>Ferramenta</th>
-        <th>Finalidade</th>
-    </tr>
-    <tr>
-        <td><strong>Kali Linux</strong></td>
-        <td>Ambiente isolado e seguro</td>
-    </tr>
-    <tr>
-        <td><strong>Tor</strong></td>
-        <td>Ocultação de IP e roteamento anônimo</td>
-    </tr>
-    <tr>
-        <td><strong>ProtonMail</strong></td>
-        <td>Serviço de e-mail criptografado, sem necessidade de telefone</td>
-    </tr>
-    <tr>
-        <td><strong>2FA</strong></td>
-        <td>Autenticação de dois fatores para proteção extra</td>
-    </tr>
-</table>
+    <h2>🛠️ Ferramentas Utilizadas</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Ferramenta</th>
+                <th>Finalidade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Kali Linux</strong></td>
+                <td>Ambiente isolado e seguro</td>
+            </tr>
+            <tr>
+                <td><strong>Tor</strong></td>
+                <td>Ocultação de IP e roteamento anônimo</td>
+            </tr>
+            <tr>
+                <td><strong>ProtonMail</strong></td>
+                <td>Serviço de e-mail criptografado, sem necessidade de telefone</td>
+            </tr>
+            <tr>
+                <td><strong>2FA</strong></td>
+                <td>Autenticação de dois fatores para proteção extra</td>
+            </tr>
+        </tbody>
+    </table>
 
-<hr>
+    <hr>
 
-<h2>🧪 Procedimento Resumido</h2>
+    <h2>🧪 Procedimento Resumido</h2>
 
-<h3>1. Preparação do Ambiente</h3>
-<ul>
-    <li>Utilização da máquina virtual <strong>Kali Linux</strong>.</li>
-    <li>Configuração do <strong>Tor</strong> para garantir anonimato.</li>
-</ul>
+    <h3>1. Preparação do Ambiente</h3>
+    <ul>
+        <li>Utilização da máquina virtual <strong>Kali Linux</strong>.</li>
+        <li>Configuração do <strong>Tor</strong> para garantir anonimato.</li>
+    </ul>
 
-<h3>2. Criação da Conta no ProtonMail</h3>
-<ul>
-    <li>Acesso via <strong>Navegador Tor</strong>.</li>
-    <li>Criação de conta com <strong>pseudônimo</strong> e sem número de telefone.</li>
-    <li>Definição de <strong>senha forte e única</strong>.</li>
-    <li>Ativação de <strong>autenticação de dois fatores (2FA)</strong>.</li>
-    <li>Armazenamento da <strong>chave de recuperação</strong> em local seguro.</li>
-</ul>
+    <h3>2. Criação da Conta no ProtonMail</h3>
+    <ul>
+        <li>Acesso via <strong>Navegador Tor</strong>.</li>
+        <li>Criação de conta com <strong>pseudônimo</strong> e sem número de telefone.</li>
+        <li>Definição de <strong>senha forte e única</strong>.</li>
+        <li>Ativação de <strong>autenticação de dois fatores (2FA)</strong>.</li>
+        <li>Armazenamento da <strong>chave de recuperação</strong> em local seguro.</li>
+    </ul>
 
-<h3>3. Configuração de Segurança</h3>
-<ul>
-    <li>Remoção de informações pessoais do perfil.</li>
-    <li>Criação de pseudônimo para uso em cadastros.</li>
-</ul>
+    <h3>3. Configuração de Segurança</h3>
+    <ul>
+        <li>Remoção de informações pessoais do perfil.</li>
+        <li>Criação de pseudônimo para uso em cadastros.</li>
+    </ul>
 
-<h3>4. Entrega ao Cliente</h3>
-<ul>
-    <li>Credenciais entregues em <strong>arquivo criptografado</strong> (7-Zip AES-256).</li>
-    <li>Orientações sobre boas práticas de uso.</li>
-</ul>
+    <h3>4. Entrega ao Cliente</h3>
+    <ul>
+        <li>Credenciais entregues em <strong>arquivo criptografado</strong> (7-Zip AES-256).</li>
+        <li>Orientações sobre boas práticas de uso.</li>
+    </ul>
 
-<hr>
+    <hr>
 
-<h2>🧠 Desafios e Soluções</h2>
-<table>
-    <tr>
-        <th>Desafio</th>
-        <th>Solução</th>
-    </tr>
-    <tr>
-        <td>Evitar rastreamento do IP real</td>
-        <td>Uso do <strong>Tor</strong></td>
-    </tr>
-    <tr>
-        <td>Não vincular o e-mail a dados pessoais</td>
-        <td>Conta criada sem telefone, com pseudônimo</td>
-    </tr>
-    <tr>
-        <td>Manter as credenciais seguras</td>
-        <td>Entrega via <strong>arquivo criptografado</strong></td>
-    </tr>
-</table>
+    <h2>🧠 Desafios e Soluções</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Desafio</th>
+                <th>Solução</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Evitar rastreamento do IP real</td>
+                <td>Uso do <strong>Tor</strong></td>
+            </tr>
+            <tr>
+                <td>Não vincular o e-mail a dados pessoais</td>
+                <td>Conta criada sem telefone, com pseudônimo</td>
+            </tr>
+            <tr>
+                <td>Manter as credenciais seguras</td>
+                <td>Entrega via <strong>arquivo criptografado</strong></td>
+            </tr>
+        </tbody>
+    </table>
 
-<hr>
+    <hr>
 
-<h2>✅ Resultados Alcançados</h2>
-<table>
-    <tr>
-        <th>Item</th>
-        <th>Status</th>
-    </tr>
-    <tr>
-        <td>E-mail criado (ProtonMail)</td>
-        <td><span class="badge badge-success">✅</span></td>
-    </tr>
-    <tr>
-        <td>Conta sem número de telefone</td>
-        <td><span class="badge badge-success">✅</span></td>
-    </tr>
-    <tr>
-        <td>Autenticação de dois fatores (2FA) ativada</td>
-        <td><span class="badge badge-success">✅</span></td>
-    </tr>
-    <tr>
-        <td>Chave de recuperação armazenada</td>
-        <td><span class="badge badge-success">✅</span></td>
-    </tr>
-    <tr>
-        <td>Credenciais entregues com segurança</td>
-        <td><span class="badge badge-success">✅</span></td>
-    </tr>
-</table>
+    <h2>✅ Resultados Alcançados</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>E-mail criado (ProtonMail)</td>
+                <td><span class="badge badge-success">✅</span></td>
+            </tr>
+            <tr>
+                <td>Conta sem número de telefone</td>
+                <td><span class="badge badge-success">✅</span></td>
+            </tr>
+            <tr>
+                <td>Autenticação de dois fatores (2FA) ativada</td>
+                <td><span class="badge badge-success">✅</span></td>
+            </tr>
+            <tr>
+                <td>Chave de recuperação armazenada</td>
+                <td><span class="badge badge-success">✅</span></td>
+            </tr>
+            <tr>
+                <td>Credenciais entregues com segurança</td>
+                <td><span class="badge badge-success">✅</span></td>
+            </tr>
+        </tbody>
+    </table>
 
-<hr>
+    <hr>
 
-<h2>📖 Documentação Completa</h2>
-<p>📄 <a href="https://github.com/joaosolano/cybersecurity-corporate-lab/blob/main/docs/email_seguro.md">Versão completa do caso</a></p>
+    <h2>📖 Documentação Completa</h2>
+    <p>📄 <a href="https://github.com/joaosolano/cybersecurity-corporate-lab/blob/main/docs/email_seguro.md" target="_blank">Versão completa do caso</a></p>
 
-<p><strong>Última atualização:</strong> Junho de 2026</p>
+    <p><strong>Última atualização:</strong> Junho de 2026</p>
 
+</div>
 </body>
 </html>
